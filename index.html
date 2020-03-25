@@ -8,5 +8,25 @@
 <body>
     <h1>This is a Pomodoro Timer</h1>
     <p1>Made by James Kritikos & Alex Boon as a Pair Programming project.</p1>
+
+    <!-- <div id="count-type-container">Session or Break</div>
+    <div id="time-remaining-container">0:00</div> -->
+
+    
+    <button id='timer-up-button' onclick="addMinuteForWork()">Timer Up(1min)</button>
+    <button id='timer-down-button' onclick="removeMinuteForWork()">Timer Down(1min)</button>
+
+    <button id='break-up-button' onclick="addMinuteForBreak()">Break Up(1min)</button>
+    <button id='break-down-button' onclick="removeMinuteForBreak()">Break Down(1min)</button>
+    <div id='break-display'></div>
+
+    <button id='play-button' onclick="startTimer()">Play</button>
+    <button id='pause-button' onclick="stopTimer()">Pause</button>
+    <button id='reset-button' onclick="resetTimer()">Reset</button>
+    <div id='timer'></div>
+
+
+
 </body>
+<script src="script.js"></script>
 </html>
